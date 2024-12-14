@@ -55,20 +55,13 @@ def job():
     with open(file_path, "w") as f:
         json.dump(new_file, f,indent=2, ensure_ascii=False)
 
-    # print(prev_file)
-
-    # print("--------------------------------------------------------------")
-    # print(new_file)
-
-
-
 
     if compare_files(prev_file, new_file):
-        print("変更点はありません")
-        #gmail.send_test_email("変更点はありません")
+        print("There are no change")
+        #gmail.send_test_email("There are no change")
     else:
-        print("変更点があります")
-        #gmail.send_test_email("変更点があります！！！！！！")
+        print("There is a change")
+        #gmail.send_test_email("There is a change")
 
 
 

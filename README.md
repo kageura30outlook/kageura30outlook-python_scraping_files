@@ -1,6 +1,6 @@
-# The purpose of this project
+# The Purpose Of This Project
   The files involves scraping a website periodically to gather specific information and send it to my Gmail.
-# The code
+# The Code
   ## tmp.py
   The main function is the tmp.py file. The file will get browser information by using "urllib request" and "BeutifulSoup" libraries. With the information, the code compares old and new scraped data to identify any changes.
   ## schedule_run.py

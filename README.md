@@ -2,7 +2,8 @@
   The files involves scraping a website periodically to gather specific information and send it to my Gmail.
 # The Code
   ## tmp.py
-  The main function is the tmp.py file. The file will get browser information by using "urllib request" and "BeutifulSoup" libraries. With the information, the code compares old and new scraped data to identify any changes.
+  The main function is the tmp.py file. The file will get browser information by using "urllib request" and "BeutifulSoup" libraries.\
+  With the information, the code compares old and new scraped data to identify any changes.
   ## schedule_run.py
   The filecontrols the execution timing of the previous code, with 'tmp' being the main functionality.
   ## my_gmail_account.py

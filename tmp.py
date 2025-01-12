@@ -2,7 +2,7 @@ import urllib.request
 from bs4 import BeautifulSoup 
 import json
 import os
-#import gmail_send as gmail
+import gmail_send as gmail
 
 
 # ファイルを比較する関数

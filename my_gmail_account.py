@@ -1,2 +1,2 @@
-account = ""
-password = "ociq yosl bhnf vszk"
+account = "account_name"
+password = "account_password"
